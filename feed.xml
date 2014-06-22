@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Your awesome title</title>
+    <title>Старый блог Славелия Розы</title>
     <description>Материалы старого блога</description>
     <link>http://old-blog.utkorose.ru/</link>
     <atom:link href="http://old-blog.utkorose.ru/feed.xml" rel="self" type="application/rss+xml" />
