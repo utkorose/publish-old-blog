@@ -1,0 +1,91 @@
+
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Не работают иконки Twitter Bootstrap 3:решение</title>
+		<meta name="description" content="Материалы старого блога">
+		<link href="/css/bootstrap.min.css" rel="stylesheet">
+		<link href="/css/theme.css" rel="stylesheet">
+	</head>
+	<body id="<?php get_page_slug(); ?>">
+	<div class="Tbackground">
+  	<div class="container">
+  	 	<div class="row">
+	   		<div class="col-md-12">
+  				<div class="page-header">
+  					<span class="h1">Your awesome title</span>
+  				</div>
+          <div class="navbar navbar-default navbar-static-top" role="navigation">
+            <div class="container-fluid">
+              <div class="navbar-header">
+                <button type="button" href="" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+              </div>
+              <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                  <li><a>1</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>		
+        </div>
+			</div>
+  		<div class="row">
+	   		<div class="col-md-9">
+				  <div>
+				    <article><div class="post">
+
+  <header class="post-header">
+    <h1>Не работают иконки Twitter Bootstrap 3:решение</h1>
+    <p class="meta">Nov 1, 2013 • utkorose</p>
+  </header>
+
+  <article class="post-content">
+  <p>Иконки Glyphicons в Twitter Bootstrap 3 перестали работать. Вместо нужных символов отображались стрелки, точки с запятой и прочая ерунда. Долго не мог понять, в чём дело, англоязычный гугл помог. Оказалось, проблема в реализации.<!--more--></p>
+
+<p>Иконки реализованы с помощью шрифтов. Файлы шрифтов находятся в папке fonts. Как выяснилось, файлы битые. Потому нужно заменить их на эти:</p>
+
+<blockquote>
+  <ul>
+    <li><a href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/fonts/glyphicons-halflings-regular.svg">https://netdna.bootstrapcdn.com/bootstrap/3.0.0/fonts/glyphicons-halflings-regular.svg</a></li>
+    <li><a href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/fonts/glyphicons-halflings-regular.woff">https://netdna.bootstrapcdn.com/bootstrap/3.0.0/fonts/glyphicons-halflings-regular.woff</a></li>
+    <li><a href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/fonts/glyphicons-halflings-regular.ttf">https://netdna.bootstrapcdn.com/bootstrap/3.0.0/fonts/glyphicons-halflings-regular.ttf</a></li>
+    <li><a href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/fonts/glyphicons-halflings-regular.eot">https://netdna.bootstrapcdn.com/bootstrap/3.0.0/fonts/glyphicons-halflings-regular.eot</a></li>
+  </ul>
+</blockquote>
+
+<p>Я проверил — работает. Возможно, в релизе 3.0.1 этот баг исправлен и эта инструкция не понадобится.</p>
+
+  </article>
+
+</div></article>
+				  </div>
+        </div>
+        <div class="col-md-3">
+          <div class="panel panel-default">
+            <div class="panel-heading">1</div>
+            <div class="panel-body">2</div>
+          </div>
+
+        </div>
+		  </div>
+        <div id="footer" class="row">
+    <div class="col-md-12">
+      <div class="panel panel-primary">
+          <div class="panel-heading">подвал</div>
+      </div>
+    </div>
+
+  </div>
+    </div>
+	</div>
+
+	<script type="text/javascript" src="/js/jquery.min.js"></script>
+	<script type="text/javascript" src="/js/bootstrap.min.js"></script>
+	</body>
+</html>
+

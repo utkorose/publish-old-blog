@@ -1,0 +1,134 @@
+
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Свободно распространяемый антивирус(очередная халява ;))</title>
+		<meta name="description" content="Материалы старого блога">
+		<link href="/css/bootstrap.min.css" rel="stylesheet">
+		<link href="/css/theme.css" rel="stylesheet">
+	</head>
+	<body id="<?php get_page_slug(); ?>">
+	<div class="Tbackground">
+  	<div class="container">
+  	 	<div class="row">
+	   		<div class="col-md-12">
+  				<div class="page-header">
+  					<span class="h1">Your awesome title</span>
+  				</div>
+          <div class="navbar navbar-default navbar-static-top" role="navigation">
+            <div class="container-fluid">
+              <div class="navbar-header">
+                <button type="button" href="" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+              </div>
+              <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                  <li><a>1</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>		
+        </div>
+			</div>
+  		<div class="row">
+	   		<div class="col-md-9">
+				  <div>
+				    <article><div class="post">
+
+  <header class="post-header">
+    <h1>Свободно распространяемый антивирус(очередная халява ;))</h1>
+    <p class="meta">Aug 31, 2011 • utkorose</p>
+  </header>
+
+  <article class="post-content">
+  <p>Итак, поскольку я решил <a href="http://rtnsl.nsk.ru/net-piratstvu/">удалить всё нелицензионное ПО</a> с компьютера и поставить только лицензионное, встал вопрос об антивирусе — покупать-то кусаются цены. Это актуально очень для меня, студента. Имея неудачный опыт работы с авирой и с авастом (систему грузят почему-то, пропускают вирусы и потом удаляют системные файлы), начал искать — и таки нашёл <strong>ЕГО</strong>.</p>
+
+<p>Итак, свободно распространяемый антивирус <a href="http://ru.clamwin.com/">ClamWin</a> является, по сути, оболочкой для антивируса  <strong><em>ClamAV</em></strong>, сделанной для Windows, а точнее сканером, использующим его возможности. <strong><em>ClamWin</em></strong> — только антивирус, он проверяет память или отдельные каталоги и файлы на наличие вирусов, найденные лечит или сообщает пользователю об обнаружении оных. Всех остальных возможностей, которыми радует своих почитателей касперский и или нод32 — нет. Ни тебе проверки каждого запускаемого файла, ни контроля за программами, ни сетевого сканера. Хотя в принципе, можно дополнительно установить так же свободно распространяемую программу <strong><em>WinPooch</em></strong>, которая будет использовать <strong><em>ClamWin</em></strong> для проверки всех запускаемых программ. Кроме того, <strong><em>WinPooch</em></strong> можно использовать для контроля сети. Но только проект прекратил своё существование 13 июня 2008 года, сайта проекта уже нет — но скачать ещё можно. Так вот,<!--more--></p>
+
+<h6 style="text-align: center;">
+  Возможности <strong><em>WinPooch</em></strong>:
+</h6>
+
+<li style="text-align: left;">
+  Контроль над поведением программ (HIPS), включая: <ul>
+    <li>
+      Запуск и завершение программ.
+    </li>
+    <li>
+      Открытие файлов на чтение/запись.
+    </li>
+    <li>
+      Доступ к реестру Windows.
+    </li>
+  </ul>
+</li>
+
+<li style="text-align: left;">
+  Контроль сетевой активности приложений: <ul>
+    <li>
+      Открытие порта для прослушивания (то есть работа как сетевого сервера).
+    </li>
+    <li>
+      Подключение и передача данных программой к другому компьютеру.
+    </li>
+  </ul>
+</li>
+
+<li style="text-align: left;">
+  Резидентное сканирование и сканирование исполняемых программ, которые пытаются проделать контролируемые действия, используя встроенный или внешний антивирусный или антишпионский модуль.
+</li>
+
+<p style="text-align: center;">
+  <em><strong>Возможности ClamWin:</strong></em>
+</p>
+
+<li style="text-align: left;">
+  Планировщик сканирования по расписанию.
+</li>
+<ul>
+  <li>Автоматическое обновление антивирусной базы.</li>
+  <li>Антивирусный сканер.</li>
+  <li>Интеграция в контекстное меню Проводника в Windows.</li>
+  <li>Плагин для Microsoft Outlook.</li>
+  <li>Возможность работы с флешки или компакт-диска без необходимости установки.</li>
+  <li>Плагин для Mozilla FireFox, позволяющий проверять на вирусы скачиваемые файлы</li>
+</ul>
+
+<p>Так же интересен тот факт, что база собирается благодаря неравнодушным пользователям — если антивирус вдруг найдёт подозрительный файл или просто какой-то файл вызовет подозрения, его можно отправить через <a href="http://www.clamav.net/lang/ru/sendvirus/">форму на официальном сайте ClamAV</a>, заполнив её. Если подозрительный файл антивирус находит сам — он пишет, как заполнять форму. Лимит — 2 файла в сутки. У меня антивирус в первый же день нашёл два подозрительных файла, которые я и отправил. На следующий день сообщения о подозрительных файлах не появились.</p>
+
+<p>Этот антивирус простоял у меня суток трое, я периодически запускал полную проверку(которая не грузила компьютер так. как признанные монстры — во время проверки нодом или касперычем я оставляю его на растерзание великому и могучему антивирусу, всё остальное начинает подвисать), после чего мне на халяву через сайт биглион досталась лицензия на антивирус Касперского(на 3 месяца) и я поставил его. Касперский ничего не нашёл, правда, полную проверку я не довёл до конца. Но системные папки точно чисты, если верить и тем и тем. Если что-нибудь найдётся сегодня ночью — сообщу.</p>
+
+
+  </article>
+
+</div></article>
+				  </div>
+        </div>
+        <div class="col-md-3">
+          <div class="panel panel-default">
+            <div class="panel-heading">1</div>
+            <div class="panel-body">2</div>
+          </div>
+
+        </div>
+		  </div>
+        <div id="footer" class="row">
+    <div class="col-md-12">
+      <div class="panel panel-primary">
+          <div class="panel-heading">подвал</div>
+      </div>
+    </div>
+
+  </div>
+    </div>
+	</div>
+
+	<script type="text/javascript" src="/js/jquery.min.js"></script>
+	<script type="text/javascript" src="/js/bootstrap.min.js"></script>
+	</body>
+</html>
+
